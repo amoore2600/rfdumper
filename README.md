@@ -31,11 +31,11 @@ Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak 
 
 **So what should I know about using this custom firmware?**
 
-   The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk.
+   The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopfully it wont brik you system.
    
-   Your Retro Freak should be on Application version 2.7 if you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak.  
+   Your Retro Freak should be on Application version 2.7 befor you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. up grade instuctions can be found on the Retro Freak web page. 
 
-   This is a repackaged version of https://github.com/hissorii/retrofd using hissorii’s excellent work! Also this would not be possible with Jonas Rosland’s awesome how to at https://gist.github.com/jonasrosland/a535f05acb8b81d6685d4d7d348b35ec The credit for this dumping firmware goes to them as my changes were very minor.
+   This is a slightly reconfigured version of https://github.com/hissorii/retrofd using hissorii’s excellent work. Hissorii is the reson all this is even posible. Hissorii deserves all of the credit for this custom firmware image. Hissorii, Thank you so much for making your work public!!! Jonas Rosland’s awesome how to at https://gist.github.com/jonasrosland/a535f05acb8b81d6685d4d7d348b35ec help get me up and running. The credit for this dumping firmware goes to them as my changes were very minor (edits to just 1 config file and minor busybox script changes).
 
    It's probably best that you only use this SD card when dumping games as the dumping process can cause a lot of wear and tear on the SD card. 
 
