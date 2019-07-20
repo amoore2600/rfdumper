@@ -18,6 +18,9 @@ Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak 
 **How do I use this custom firmware?**
 
    Download one of the img zip files and write it to an SD card then just put it in the Retro Freak. If your SD card is 8GB in size then use the 8GB image. If your SD card is 16GB in size then use the 16GB image. If your SD card is 32GB in size then use the 32GB image.
+   
+   https://github.com/amoore2600/rfdumper/raw/master/rfdumper8GB.20190720.img.zip
+   
 
 * Unzip the image 
 * Write the image to the SD card (use dd, etcher, or any other image writing software)
