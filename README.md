@@ -3,7 +3,7 @@ Turn the Retro Freak into a cart dumping beast with this custom firmware.
 
 Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak in to a massively awesome cart dumping beast.
 
-*What does this firmware do for the Retro Freak?
+*What does this firmware do for the Retro Freak?*
 
   This custom firmware allows for decrypted dumps of game carts to be made to the Retro Freak's SD card. The decrypted dumps are properly named using the Retro Freak's own internal database and are validated using the checksum from the database.
 
