@@ -11,7 +11,7 @@ Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak 
 
    The back ups of game carts that the Retro Freak makes without using this custom firmware are encrypted. The reason I wanted decrypted dumps of my game carts was to audit my physical cart collection. Many of my carts are near +30 years old. I was paying hundreds of  dollars for carts like Megaman 7 and Earthbound and I wanted to know that these carts data were still good after 30 years. The Retro also Freak will warn if a carts checksum doesn't match the Retro Freak's database and having the decrypted dump also allows me to build my own checksums for me to compare manually if I want.
  
-   Another benefit of decrypted dumps is that the dumps are now portable and played on other devices such as PCs, flash carts, FPGAs, and even other Retro Freak systems. 
+   Another benefit of decrypted dumps is that the dumps are now portable and played on other devices such as PCs, phones, flash carts, FPGAs, and even other Retro Freak systems. 
  
    I looked at many different cart dumping methods, most involved custom boutique hardware and software or DIY builds along with paring of a computer. This made cart dumping difficult and expensive and far from future proof as operating systems and libraries change frequently and then causes problems for these boutique systems. The Retro Freak is self contained and simply writes the decrypted dumps to an SD card which will likely be around in some form for the foreseeable future.  Also the Retro Freak can dump 11 different cart formats.  
 
