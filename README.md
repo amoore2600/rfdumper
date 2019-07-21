@@ -51,33 +51,4 @@ Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak 
    The “/RetroFreak/Games” directory on the SD card should is created after you dump your first cart. The “/RetroFreak/Games” directory always be empty never put files in it. This custom firmware uses this directory to grab the name of the game from the encrypted dump when the dumping process put it there Then it removes the encrypted dump so that the directory is empty for future dumps. If multiple files are in “/RetroFreak/Games” directory then then future decrypted dump my be named wrong. If you see files in the “/RetroFreak/Games/” directory you should delete them when using this custom firmware.
 
    You should never have a file named dump.* on the SD card in “/retrofd/log/”. This is a temporary file that's used when copying the decrypted dump. If you see files named dump.* in the “/retrofd/log/” directory you should delete them when using this custom firmware as this might cause an issue with name the decrypted dump.
-   
-**What files did changes compaired to hissorii’s images?**
-
-```
-#!/sbin/busybox sh
-
-while ! busybox grep "/mnt/external_sd" /proc/mounts > /dev/null
-do
-	busybox sleep 1
-done
-
-srcd=/mnt/ram/
-dstd=/mnt/external_sd/retrofd/log
-busybox rm $dstd/dump.* 
-busybox rm /mnt/external_sd/RetroFreak/Games/* 
-
-# copy log files(/mnt/ram/log/*) to SD(/retrofd/log) if new ones exist
-while : ;
-do
-	busybox find $srcd -maxdepth 1 -type f | busybox sed -e 's/.*\///' | while read logfile
-	do
-		[ -f "$dstd/$logfile" ] || busybox sleep 5 && busybox cp "$srcd/$logfile" "$dstd/${edump}"  
-	done
-                            edump=`busybox ls /mnt/external_sd/RetroFreak/Games/`
-                            busybox rm /mnt/external_sd/RetroFreak/Games/*
-                            busybox rm $dstd/dump.* 
-	busybox sleep 1
-done
-```
-   
+      
