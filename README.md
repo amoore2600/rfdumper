@@ -3,6 +3,10 @@
 
 Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak in to a massively awesome cart dumping beast to leagally back up your own carts.
 
+The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopfully it wont brik you system.
+
+Your Retro Freak should be on Application version 2.7 befor you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. up grade instuctions can be found on the Retro Freak web page.
+
 **What does this firmware do for the Retro Freak?**
 
    This custom firmware allows for decrypted dumps of game carts to be made to the Retro Freak's SD card. The decrypted dumps are properly named using the Retro Freak's own internal database and are validated using the checksum from the database.
@@ -37,10 +41,6 @@ Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak 
 
 
 **So what should I know about using this custom firmware?**
-
-   The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopfully it wont brik you system.
-   
-   Your Retro Freak should be on Application version 2.7 befor you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. up grade instuctions can be found on the Retro Freak web page. 
 
    This is a slightly reconfigured version of https://github.com/hissorii/retrofd using hissorii’s excellent work. Hissorii is the reson all this is even posible. Hissorii deserves all of the credit for this custom firmware image. Hissorii, Thank you so much for making your work public!!! Jonas Rosland’s awesome how to at https://gist.github.com/jonasrosland/a535f05acb8b81d6685d4d7d348b35ec also help get me up and running and building this. The credit for this dumping firmware goes to them as my changes were very minor (edits to just 1 config file and minor busybox script changes).
 
