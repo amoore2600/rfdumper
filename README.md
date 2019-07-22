@@ -38,7 +38,7 @@ Your Retro Freak should be on Application version 2.7 befor you use this custom 
 * Put the SD card in Retro Freak 
 * Power on the Retro Freak
 * Follow the on screen prompts to save the cart to the SD card
-* After getting the message prompt that the cart has been dumped to the sd card wait 10 to 15 seconds before hitting the close button.  
+* After getting the message prompt that the cart has been dumped to the SD card wait 10 to 15 seconds before hitting the close button.  
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
 * Decrypted dumps will be found in the direectory "/retrofd/log" on the SD card     
 
