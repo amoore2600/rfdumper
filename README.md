@@ -33,7 +33,7 @@ Your Retro Freak should be on Application version 2.7 befor you use this custom 
    
 
 * Unzip the image 
-* Write the image to the SD card use [etcher](https://www.balena.io/etcher/), [dd](http://osxdaily.com/2018/04/18/write-image-file-sd-card-dd-command-line/) or any other image writing software
+* Write the image to the SD card, use [etcher](https://www.balena.io/etcher/), [dd](http://osxdaily.com/2018/04/18/write-image-file-sd-card-dd-command-line/) or any other image writing software
 * Put a cart in the Retro Freak 
 * Put the SD card in Retro Freak 
 * Power on the Retro Freak
