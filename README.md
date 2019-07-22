@@ -3,6 +3,8 @@
 
 Like Ruffus guiding the Wild Stallions, I am here to transform your Retro Freak in to a massively awesome cart dumping beast to leagally back up your own carts.
 
+You can see a demo of me dumping my carts here: https://youtu.be/hB6V2Wt41kQ
+
 The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopfully it wont brik you system.
 
 Your Retro Freak should be on Application version 2.7 befor you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. up grade instuctions can be found on the Retro Freak web page.
@@ -36,6 +38,7 @@ Your Retro Freak should be on Application version 2.7 befor you use this custom 
 * Put the SD card in Retro Freak 
 * Power on the Retro Freak
 * Follow the on screen prompts to save the cart to the SD card
+* After getting the message prompt that the cart has been dumped to the sd card wait 10 to 15 seconds before hitting the close button.  
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
 * Decrypted dumps will be found in /retrofd/log on the SD card     
 
@@ -52,3 +55,6 @@ Your Retro Freak should be on Application version 2.7 befor you use this custom 
 
    You should never have a file named dump.* on the SD card in “/retrofd/log/”. This is a temporary file that's used when copying the decrypted dump. If you see files named dump.* in the “/retrofd/log/” directory you should delete them when using this custom firmware as this might cause an issue with name the decrypted dump.
       
+**Be patient**
+
+  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This give the code time to run fully, copy the game, and rename it in the /retrofd/log/” directory.  
