@@ -40,7 +40,7 @@ Your Retro Freak should be on Application version 2.7 befor you use this custom 
 * Follow the on screen prompts to save the cart to the SD card
 * After getting the message prompt that the cart has been dumped to the sd card wait 10 to 15 seconds before hitting the close button.  
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
-* Decrypted dumps will be found in /retrofd/log on the SD card     
+* Decrypted dumps will be found in the direectory "/retrofd/log" on the SD card     
 
 
 **So what should I know about using this custom firmware?**
@@ -57,4 +57,4 @@ Your Retro Freak should be on Application version 2.7 befor you use this custom 
       
 **Be patient**
 
-  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This give the code time to run fully, copy the game, and rename it in the /retrofd/log/” directory.  
+  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This give the code time to run fully, copy the game, and rename it in the "/retrofd/log/” directory.  
