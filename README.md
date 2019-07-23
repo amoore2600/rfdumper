@@ -25,11 +25,11 @@ Your Retro Freak should be on Application version 2.7 before you use this custom
 
    Download one of the img zip files and write it to an SD card, then just put it in the Retro Freak. If your SD card is 8GB in size, then use the 8GB image. If your SD card is 16GB in size, then use the 16GB image. If your SD card is 32GB in size, then use the 32GB image. SD cards larger than 32GB are not supported.
    
-  https://github.com/amoore2600/rfdumper/raw/master/rfdumper8GB.20190720.img.zip
+  https://github.com/amoore2600/rfdumper/raw/master/rfdumper8GB.20190721.img.zip
   
-  https://github.com/amoore2600/rfdumper/raw/master/rfdumper16GB.20190720.img.zip
+  https://github.com/amoore2600/rfdumper/raw/master/rfdumper16GB.20190721.img.zip
   
-  https://github.com/amoore2600/rfdumper/raw/master/rfdumper32GB.20190720.img.zip
+  https://github.com/amoore2600/rfdumper/raw/master/rfdumper32GB.20190721.img.zip
    
 * Download the correct image file for your SD Card's size
 * Unzip the file
@@ -40,7 +40,7 @@ Your Retro Freak should be on Application version 2.7 before you use this custom
 * Follow the on-screen prompts to save the cart to the SD card
 * After getting the message prompt that the cart has been dumped to the SD card wait 10 to 15 seconds before hitting the close button  
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
-* Decrypted dumps will be found in the directory "/retrofd/log" on the SD card and will be properly named.   
+* Decrypted dumps will be found in the directory "/dumps" on the SD card and will be properly named.   
 
 
 **So what should I know about using this custom firmware?**
@@ -53,8 +53,8 @@ Your Retro Freak should be on Application version 2.7 before you use this custom
 
    The “/RetroFreak/Games” directory on the SD card is created after you dump your first cart. The “/RetroFreak/Games” directory should always be empty. Never put files in “/RetroFreak/Games”. This custom firmware uses this directory to get the name of the game from the encrypted dump when the encrypted dumping process put it there. After the file name is retrieved files in this directory (including the encrypted dump) are removed. If multiple files are in “/RetroFreak/Games” directory, then then future decrypted dumps may be named wrong. If you see files in the “/RetroFreak/Games/” directory, you should delete them when using this custom firmware.
 
-   You should never have a file named dump.* on the SD card in “/retrofd/log/”. This is a temporary file that's used when copying the decrypted dump. If you see files named dump.* in the “/retrofd/log/” directory you should delete them when using this custom firmware as this might cause an issue with name the decrypted dump.
+   You should never have a file named dump.* on the SD card in “/dumps”. This is a temporary file that's used when copying the decrypted dump. If you see files named dump.* in the “/dumps” directory you should delete them when using this custom firmware as this might cause an issue with name the decrypted dump.
       
 **Be patient**
 
-  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This give the code time to run fully, copy the game, and rename it in the "/retrofd/log/” directory.  
+  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This give the code time to run fully, copy the game, and rename it in the "/dumps” directory.  
