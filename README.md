@@ -49,7 +49,7 @@ Your Retro Freak should be on application version 2.7 before you use this custom
 
    It's probably best that you only use this SD card when dumping games as the dumping process can cause a lot of wear and tear on the SD card. 
 
-**The directories on the SD card are a little bit wonky** 
+**The directories on the SD card are a little bit wonky.** 
 
 In the largest partition on the SD Card: 
 
