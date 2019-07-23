@@ -65,5 +65,5 @@ In the largest partition on the SD Card:
    
 In the medium size partition on the SD Card:
 
-The partition also includesthe bits needed to run the firmware, be carful drgaons live here too, it's best to leave this alone unless you know what your doing.
+The partition also includes the bits needed to run the firmware, be carful drgaons live here too, it's best to leave this alone unless you know what your doing.
 
