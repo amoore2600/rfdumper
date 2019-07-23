@@ -42,6 +42,10 @@ Your Retro Freak should be on application version 2.7 before you use this custom
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
 * Decrypted dumps will be found in the directory "/dumps" on the SD card and will be properly named.   
 
+**Be patient**
+
+  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This gives the code time to run fully, copy the game, and rename it in the "/dumps” directory.  
+  
 
 **So what should I know about using this custom firmware?**
 
@@ -63,8 +67,3 @@ In the medium size partition on the SD Card:
 
 The partition also includesthe bits needed to run the firmware, be carful drgaons live here too, it's best to leave this alone unless you know what your doing.
 
-      
-**Be patient**
-
-  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This gives the code time to run fully, copy the game, and rename it in the "/dumps” directory.  
-  
