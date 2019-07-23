@@ -57,4 +57,4 @@ Your Retro Freak should be on Application version 2.7 before you use this custom
       
 **Be patient**
 
-  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This give the code time to run fully, copy the game, and rename it in the "/dumps” directory.  
+  After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This gives the code time to run fully, copy the game, and rename it in the "/dumps” directory.  
