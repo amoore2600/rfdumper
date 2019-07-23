@@ -3,7 +3,7 @@
 
 Like Rufus guiding the Wild Stallions, I am here to transform your Retro Freak in to a massively awesome cart dumping beast to legally back up your own carts. With the rfdumper firmware you can make decrypted dumps using the Retro Freak from 12 different cart types; FC, NES (\*adapter needed), SNES, SFC, Genesis/MD, TG16/PCE, GB, GBC, GBA, GG(\*adapter needed), SG100(\*adapter needed), MK3(\*adapter needed)
 
-You can see a demo of me dumping my carts here: https://youtu.be/hB6V2Wt41kQ
+You can see a demo of me dumping my carts here: https://youtu.be/sxVXdffZjeQ
 
 The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopefully it won’t brick your system.
 
