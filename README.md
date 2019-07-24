@@ -49,7 +49,7 @@ Your Retro Freak should be on application version 2.7 before you use this custom
 
 **So what should I know about using this custom firmware?**
 
-   This is a slightly reconfigured version of https://github.com/hissorii/retrofd using hissorii’s excellent work. Hissorii is the reson all this is even posible. Hissorii deserves all of the credit for this custom firmware image. Hissorii, thank you so much for making your work public!!! Jonas Rosland’s awesome how to at https://gist.github.com/jonasrosland/a535f05acb8b81d6685d4d7d348b35ec helped get me up and running and building rfdumper. The credit for this dumping firmware goes to Hissorii and Jonas Rosland as my changes were very minor (edits to just 1 config file and minor busybox script changes).
+   This is a slightly reconfigured version of https://github.com/hissorii/retrofd using Hissorii’s excellent work. Hissorii is the reson all this is even posible. Hissorii deserves all of the credit for this custom firmware image. Hissorii, thank you so much for making your work public!!! Jonas Rosland’s awesome how to at https://gist.github.com/jonasrosland/a535f05acb8b81d6685d4d7d348b35ec helped get me up and running and building rfdumper. The credit for this dumping firmware goes to Hissorii and Jonas Rosland as my changes were very minor (edits to just 1 config file and minor busybox script changes).
 
    It's probably best that you only use this SD card when dumping games as the dumping process can cause a lot of wear and tear on the SD card. 
 
