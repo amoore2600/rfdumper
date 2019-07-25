@@ -67,7 +67,7 @@ In the medium size partition on the SD Card:
 
 The partition also includes the bits needed to run the firmware, be careful dragons live here too, it's best to leave this alone unless you know what your doing.
 
-**My games is named "UnknownGame_??????????"**
+**My dump is named "UnknownGame_??????????"**
 
 If the game that you dumped has a name similar to "UnknownGame_F36FFEE1.PCE" don't panic. This means that the Retro Freak does not have this game in its database. The letters and numbers in the dump’s file name are the CRC32 checksum for the dump "F36FFEE1". You can use this string to look up the game online. In the case of ["UnknownGame_F36FFEE1.PCE"](https://www.google.com/search?q=F36FFEE1) this is the lesser known version for the USA/Europe cart for Bonk's Revenge.
 
