@@ -84,7 +84,7 @@ Do not use this SD Card with custom firmware and configuration for every day pla
 
 USE CAUTION - This SD Card with custom firmware and configuration will not save your SRAM (save) game progress if you use it to play games. This SD Card with custom firmware and configuration should only be used for dumping carts. (You have been warned!)  
 
-USE CAUTION - This SD Card with custom firmware and configuration dumps the cart and SRAM every time the Retro Freak is powered on with a cart and this SD Card. This will overwrite the existing dump for the cart on the SD Card including the SRAM file on the SD card.
+USE CAUTION - This SD Card with custom firmware and configuration dumps the cart and SRAM every time the Retro Freak is powered on with a cart and this SD Card. This will overwrite the existing dump from the cart on to the SD Card including the SRAM file on the SD card.
 
 This SD Card with custom firmware and configuration does not save your dumps where the Retro Freak expects. The dumps and SRAM files can not be managed using the Retro Freak's built in file browser.   
 
