@@ -2,6 +2,7 @@ This post contains info on how the Retrofreak and Retron 5 dumps SRAM: https://w
 
 The SRAMFileConverter.exe obtianed from here and were created by Wolfgang Graulich (woof): https://www.dropbox.com/s/me4pgfy0daas0aa/Retron%205%20Converter.zip?dl=0
 
+SRAMFileConverter.exe (C) 2015 Wolfgang Graulich
 Zlib C) 1995-2013 Jean-loup Gailly and Mark Adler
 
 *Some file have been renamed to preserve continuity with the rfdumper project 
