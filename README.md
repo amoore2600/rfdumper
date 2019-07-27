@@ -9,9 +9,11 @@ The author is not liable for any damage caused by using this software / SD image
 
 Your Retro Freak should be on application version 2.7 before you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. Upgrade instructions can be found on the Retro Freak web page.
 
+YOU SHOULD READ THIS DOCUMENT IN IT'S ENTIRETY SO YOU UNDERSTAND HOW THIS ALL WORKS!!!!!
+
 **What does this firmware do for the Retro Freak?**
 
-   This custom firmware allows for decrypted dumps of game carts to be made to the Retro Freak's SD card. The decrypted dumps are properly named using the Retro Freak's own internal database and are validated using the checksum from the database.
+   This custom firmware allows for decrypted dumps of game carts to be made to the Retro Freak's SD card including SRAM (game save). The decrypted dumps are properly named using the Retro Freak's own internal database and are validated using the checksum from the database.
 
 **Why would I want decrypted dumps of my game carts the Retro Freak already backs up my games to an SD card?**
 
@@ -23,34 +25,34 @@ Your Retro Freak should be on application version 2.7 before you use this custom
 
 **How do I use this custom firmware?**
 
-   Download one of the img zip files from here  https://github.com/hissorii/retrofd/releases and write it to an SD card. If your SD card is 8GB in size, then use the 8GB image. If your SD card is 16GB in size, then use the 16GB image. If your SD card is 32GB in size, then use the 32GB image. SD cards larger than 32GB are not supported. Then download these 2 files below and place them in the largest partition on the SD card in the "/retrofd" directory over writing the 2 files that already exist (retrofd.cfg and rfd_logcd.sh).
+   Download one of the img zip files from here  https://github.com/hissorii/retrofd/releases and write it to an SD card. If your SD card is 8GB in size, then use the 8GB image. If your SD card is 16GB in size, then use the 16GB image. If your SD card is 32GB in size, then use the 32GB image. SD cards larger than 32GB are not supported. Then download these 2 files below and place them in the largest partition on the SD card in the "/retrofd" directory overwriting the 2 files that already exist (retrofd.cfg and rfd_logcd.sh).
    
 https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
 
 https://github.com/amoore2600/rfdumper/blob/master/retrofd.cfg
 
 ```
-Diectory and File Layout for SD CARD on the Largest Partition
+Directory and File Layout for SD CARD on the Largest Partition
 
 ├── retrofd
-│   ├── bootscript.sh
-│   ├── install_apk
-│   ├── install_done
-│   ├── inst_apk.sh
-│   ├── local.prop
-│   ├── local.prop.adb
-│   ├── local.prop.adb_rooted
-│   ├── local.prop.noline
-│   ├── log
-│   ├── mk_rfd_img.sh
-│   ├── retrofd.cfg <---Overwrite this file with https://github.com/amoore2600/rfdumper/blob/master/retrofd.cfg
-│   ├── retrofd.sh
-│   ├── rfd_clr_done
-│   ├── rfd_logcd.sh <---Overwrite this file with https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
-│   └── rfgui_no_ftm
+│   ├── bootscript.sh
+│   ├── install_apk
+│   ├── install_done
+│   ├── inst_apk.sh
+│   ├── local.prop
+│   ├── local.prop.adb
+│   ├── local.prop.adb_rooted
+│   ├── local.prop.noline
+│   ├── log
+│   ├── mk_rfd_img.sh
+│   ├── retrofd.cfg <---Overwrite this file with https://github.com/amoore2600/rfdumper/blob/master/retrofd.cfg
+│   ├── retrofd.sh
+│   ├── rfd_clr_done
+│   ├── rfd_logcd.sh <---Overwrite this file with https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
+│   └── rfgui_no_ftm
 └──────────────────────────
 ```
-Steps for getting started:
+Step by step info for getting started:
    
 * Download the correct image file for your SD Card's size
 * Unzip the file
@@ -61,20 +63,30 @@ Steps for getting started:
 * Set the "Save data location" to "microSD card" in the "System Menu" (this only needs to be done once)
 * Power off the Retro Freak 
 * Put a cart in the Retro Freak 
-* Power on the Rtro Freak
+* Power on the Retro Freak
 * Follow the on-screen prompts to dump the cart and sram to the SD card
 * After getting the message prompt that the cart has been dumped to the SD card BE PATIENT wait 10 to 15 seconds before hitting the "close" button  
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
 * Decrypted dumps will be found on the largest partition in the "/dumps" directory on the SD card and will be properly named
-* Decrypted SRAM dumps (saves) will be found in the "/sram" directory ++++COMMING SOON++++
-* Do not use this SD Card with custom firmware and confighuration for every day play. Only use it for dumping carts. Transfer your dumps to another SD for every day play. 
+* Decrypted SRAM dumps (saves) will be found in the "/sram" directory ++++COMING SOON++++
+* Do not use this SD Card with custom firmware and configuration to play dumps or carts. Only use it for dumping carts. Transfer your dumps and SRAM files to another SD for every day play.
+* When you done dumping carts, Power down the Retro Freak, remove this SD Card from your Reto Freak and restart your system. The Retro Freak will returns to its normal state. 
 
-The dumping process can cause a lot of ware and tear on the SD Card. This firmware and configuration will dump a cart even if the cart has been previously dumped to the SD Card. 
+The dumping process can cause a lot of wear and tear on the SD Card. This firmware and configuration will dump a cart even if the cart has been previously dumped to the SD Card. 
 
 **Be patient**
 
   After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This gives the code time to run fully, copy the game, and rename it in the "/dumps” directory.  
-  
+
+**This custom firmware with this configurations should not be used to play dumps or carts ever**
+
+Do not use this SD Card with custom firmware and configuration for every day play. Only use it for dumping carts. Transfer your dumps including SRAM (saves) to another SD for every day play. You will likely see and error if you play a cart and try to save your progress to it using this custom firmware and configuration. (You have been warned!)  
+
+USE CAUTION - This SD Card with custom firmware and configuration will not save your SRAM (save) game progress if you use it to play games. This SD Card with custom firmware and configuration should only be used for dumping carts. (You have been warned!)  
+
+USE CAUTION - This SD Card with custom firmware and configuration dumps the cart and SRAM every time the Retro Freak is powered on with a cart and this SD Card. This will overwrite the existing dump for the cart on the SD Card including the SRAM file on the SD card.
+
+This SD Card with custom firmware and configuration does not save your dumps where the Retro Freak expects. The dumps and SRAM files can not be managed using the Retro Freak using its built in file browser.   
 
 **So what should I know about using this custom firmware?**
 
@@ -105,3 +117,6 @@ It's also likely if your cart is a homebrew, hack, prototype, beta or unlicensed
 Another reason sometimes carts are not recognized is that the pins are dirty. Try cleaning them with some isopropyl alcohol and some q tips.
 
 The last reason for a dump being unknown is that cart is damaged or corrupt. It’s unfortunate but sometimes these games just go bad and there’s not much you can do to repair it short of changing out the eproms or failing components. 
+
+
+
