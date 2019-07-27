@@ -69,7 +69,7 @@ Steps for getting started:
 * Decrypted SRAM dumps (saves) will be found in the "/sram" directory ++++COMMING SOON++++
 * Do not use this SD Card with custom firmware and confighuration for every day play. Only use it for dumping carts. Transfer your dumps to another SD for every day play. 
 
-The dumping process can cause a lot of ware and tear on the SD Card this firmware and configuration will dump a cart even if the cart has been previously dumped to the SD Card. 
+The dumping process can cause a lot of ware and tear on the SD Card. This firmware and configuration will dump a cart even if the cart has been previously dumped to the SD Card. 
 
 **Be patient**
 
