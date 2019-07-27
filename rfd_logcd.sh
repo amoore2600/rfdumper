@@ -7,9 +7,9 @@ done
 
 srcd=/mnt/ram/
 dstd=/mnt/external_sd/dumps
+busybox mkdir -p $dstd
 busybox rm $dstd/dump.* 
 busybox rm /mnt/external_sd/RetroFreak/Games/* 
-
 # copy log files(/mnt/ram/log/*) to SD(/retrofd/log) if new ones exist
 while : ;
 do
