@@ -78,7 +78,7 @@ The dumping process can cause a lot of wear and tear on the SD Card. This firmwa
 
   After you get the message that the cart has been dumped wait 10 to 15 seconds before hitting the close button. This gives the code time to run fully, copy the game, and rename it in the "/dumps” directory.  
 
-**This custom firmware with this configurations should not be used to play dumps or carts ever**
+**This custom firmware with this configurations should not be used to play dumps or carts!!!!**
 
 Do not use this SD Card with custom firmware and configuration for every day play. Only use it for dumping carts. Transfer your dumps including SRAM (saves) to another SD for every day play. You will likely see and error if you play a cart and try to save your progress to it using this custom firmware and configuration. (You have been warned!)  
 
