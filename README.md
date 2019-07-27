@@ -23,11 +23,12 @@ Your Retro Freak should be on application version 2.7 before you use this custom
 
 **How do I use this custom firmware?**
 
-   Download one of the img zip files from https://github.com/hissorii/retrofd/releases and write it to an SD card, then just put it in the Retro Freak. If your SD card is 8GB in size, then use the 8GB image. If your SD card is 16GB in size, then use the 16GB image. If your SD card is 32GB in size, then use the 32GB image. SD cards larger than 32GB are not supported.
+   Download one of the img zip files and write it to an SD card, then just put it in the Retro Freak. If your SD card is 8GB in size, then use the 8GB image. If your SD card is 16GB in size, then use the 16GB image. If your SD card is 32GB in size, then use the 32GB image. SD cards larger than 32GB are not supported.
+   
+https://github.com/amoore2600/rfdumper/blob/master/retrofd.cfg
 
-Downolad the following 2 files and overwrite the files them in the newly created image on your SD card on the lagest partition in the "/retrofd" directory. 
+https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
 
- 
    
 * Download the correct image file for your SD Card's size
 * Unzip the file
