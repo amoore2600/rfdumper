@@ -5,7 +5,7 @@ Like Rufus guiding the Wild Stallions, I am here to transform your Retro Freak i
 
 You can see a demo of me dumping my carts here: https://youtu.be/HHIULSM6eyw
 
-The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopefully it won’t brick your system.
+*The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopefully it won’t brick your system.*
 
 Your Retro Freak should be on application version 2.7 before you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. Upgrade instructions can be found on the Retro Freak web page.
 
