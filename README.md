@@ -25,7 +25,7 @@ Your Retro Freak should be on application version 2.7 before you use this custom
 
    Download one of the img zip files from here  https://github.com/hissorii/retrofd/releases and write it to an SD card. If your SD card is 8GB in size, then use the 8GB image. If your SD card is 16GB in size, then use the 16GB image. If your SD card is 32GB in size, then use the 32GB image. SD cards larger than 32GB are not supported. Then download these 2 files below and place them in the largest partition on the SD card in the "/retrofd" directory over writing the 2 files that already exist (retrofd.cfg and rfd_logcd.sh).
 
-`
+```
 SD CARD on the Largest Partition
 
 ├── retrofd
@@ -45,7 +45,7 @@ SD CARD on the Largest Partition
 │   ├── rfd_logcd.sh <---Overwrite this file with https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
 │   └── rfgui_no_ftm
 └──────────────────────────
-`
+```
 Steps for getting started:
    
 * Download the correct image file for your SD Card's size
