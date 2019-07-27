@@ -5,6 +5,8 @@ Like Rufus guiding the Wild Stallions, I am here to transform your Retro Freak i
 
 You can see a demo of me dumping my carts here: https://youtu.be/HHIULSM6eyw
 
+Demo of dumping SRAM (save progress from cart): https://youtu.be/uAxWo9JGH2M
+
 *The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopefully it won’t brick your system.*
 
 Your Retro Freak should be on application version 2.7 before you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. Upgrade instructions can be found on the Retro Freak web page.
@@ -92,7 +94,6 @@ This SD Card with custom firmware and configuration does not save your dumps whe
 
    This is a slightly reconfigured version of https://github.com/hissorii/retrofd using Hissorii’s excellent work. Hissorii is the reason all this is even possible. Hissorii deserves all of the credit for this custom firmware image. Hissorii, thank you so much for making your work public!!! Jonas Rosland’s awesome how to at https://gist.github.com/jonasrosland/a535f05acb8b81d6685d4d7d348b35ec helped get me up and running and building rfdumper. The credit for this dumping firmware goes to Hissorii and Jonas Rosland as my changes were very minor (edits to just 1 config file and minor busybox script changes).
 
-   It's probably best that you only use this SD card when dumping games as the dumping process can cause a lot of wear and tear on the SD card. 
 
 **The directories on the SD card are a little bit wonky.** 
 
@@ -117,6 +118,5 @@ It's also likely if your cart is a homebrew, hack, prototype, beta or unlicensed
 Another reason sometimes carts are not recognized is that the pins are dirty. Try cleaning them with some isopropyl alcohol and some q tips.
 
 The last reason for a dump being unknown is that cart is damaged or corrupt. It’s unfortunate but sometimes these games just go bad and there’s not much you can do to repair it short of changing out the eproms or failing components. 
-
 
 
