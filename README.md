@@ -33,14 +33,21 @@ https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
 * Download the correct image file for your SD Card's size
 * Unzip the file
 * Write the image to the SD card, use [etcher](https://www.balena.io/etcher/), [dd](http://osxdaily.com/2018/04/18/write-image-file-sd-card-dd-command-line/) or any other image writing software
+* Add the 2 files linked above to the SD card on the largest partition in the "/retrofd" diectory overwriting the existing files
+* Put the SD card in Retro Freak
+* Power on the Retro Freak without a cart in it
+* Set the "Save data location" to "microSD card" in the "System Menu" (this only needs to be done once)
+* Power off the Retro Freak 
 * Put a cart in the Retro Freak 
-* Put the SD card in Retro Freak 
-* Power on the Retro Freak
+* Power on the Rtro Freak
 * Follow the on-screen prompts to dump the cart and sram to the SD card
-* After getting the message prompt that the cart has been dumped to the SD card wait 10 to 15 seconds before hitting the close button  
+* After getting the message prompt that the cart has been dumped to the SD card BE PATIENT wait 10 to 15 seconds before hitting the close button  
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
-* Decrypted dumps will be found in the directory "/dumps" on the SD card and will be properly named.   
-* Do not use this SD Card for every day play. Only use it for dumping carts. Transfer your dumps to another SD for every day play.
+* Decrypted dumps will be found on the largest partition in the "/dumps" directory on the SD card and will be properly named
+* Deycypted SRAM dumps (saves) will be found in the "/sram" directory ++++COMMING SOON++++
+* Do not use this SD Card with custom firmware and confighuration for every day play. Only use it for dumping carts. Transfer your dumps to another SD for every day play. 
+
+The dumping process can cause a lot of ware and tear on the SD Card this firmware and configuration will dump a cart even if the cart has been previously dumped to the SD Card. 
 
 **Be patient**
 
