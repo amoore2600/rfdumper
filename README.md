@@ -36,10 +36,11 @@ https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
 * Put a cart in the Retro Freak 
 * Put the SD card in Retro Freak 
 * Power on the Retro Freak
-* Follow the on-screen prompts to save the cart to the SD card
+* Follow the on-screen prompts to dump the cart and sram to the SD card
 * After getting the message prompt that the cart has been dumped to the SD card wait 10 to 15 seconds before hitting the close button  
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
 * Decrypted dumps will be found in the directory "/dumps" on the SD card and will be properly named.   
+* Do not use this SD Card for every day play. Only use it for dumping carts. Transfer your dumps to another SD for every day play.
 
 **Be patient**
 
