@@ -20,7 +20,7 @@ do
 	do
 		[ -f "$dstd/$logfile" ] || busybox sleep 5 && busybox cp "$srcd/$logfile" "$dstd/${eromdump}"  
 	done
-	                   # copy SRAM remove first 24 bits and decompress SRAM
+	                   # copy SRAM remove first 24 bits from file and decompress SRAM. crc232 is in bits 16-24 not checked with this code.
                             eromdump=`busybox ls /mnt/external_sd/RetroFreak/Games/`
                             fnesramdump="`busybox find "/mnt/external_sd/RetroFreak/Saves/" -name *.sav | busybox awk -F "/" '{print$8}'`"
                             if [ ! -z "${fnesramdump}" ]
