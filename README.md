@@ -92,7 +92,7 @@ The dumping process can cause a lot of wear and tear on the SD Card. This firmwa
 
 **This custom firmware with this configurations should not be used to play dumps or carts!!!!**
 
-Do not use this SD Card with custom firmware and configuration for every day play. Only use it for dumping carts. Transfer your dumps including SRAM (saves) to another SD for every day play. You will likely see and error if you play a cart and try to save your progress to it using this custom firmware and configuration. (You have been warned!)  
+Do not use this SD Card with custom firmware and configuration for every day play. Only use it for dumping carts. Transfer your dumps including SRAM (saves) to another SD for every day play. You will likely see and errors if you play a cart and try to save your progress to it using this custom firmware and configuration. (You have been warned!)  
 
 USE CAUTION - This SD Card with custom firmware and configuration it will not save your SRAM (save) game progress if you use it to play games. This SD Card with custom firmware and configuration should only be used for dumping carts. (You have been warned!)  
 
