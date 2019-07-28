@@ -113,7 +113,7 @@ In the largest partition on the SD Card:
 
    You should never have a file named dump.* on the SD card in “/dumps”. This is a temporary file that's used when copying the decrypted dump. If you see files named dump.* in the “/dumps” directory you should delete them when using this custom firmware as this might cause an issue with name the decrypted dump.
    
-In the medium size partition on the SD Card:
+In the medium size partition on the SD Card (this partition will not be seen on Windows):
 
 The partition also includes the bits needed to run the firmware, be careful dragons live here too, it's best to leave this alone unless you know what your doing.
 
