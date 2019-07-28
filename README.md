@@ -111,7 +111,7 @@ The partition also includes the bits needed to run the firmware, be careful drag
 
 **My dump is named "UnknownGame_??????????"**
 
-If the cart that you dumped has a name similar to "UnknownGame_F36FFEE1.PCE" don't panic. This means that the Retro Freak does not have this game in its database. The letters and numbers in the dump’s file name are the CRC32 checksum for the dump "F36FFEE1". You can use this string to look up the game online. In the case of ["UnknownGame_F36FFEE1.PCE"](https://www.google.com/search?q=F36FFEE1) this is the lesser known version for the USA/Europe cart for Bonk's Revenge.
+If the cart that you dumped has a name similar to "UnknownGame_F36FFEE1.PCE" don't panic. This means that the Retro Freak does not have this game in its database. The letters and numbers in the dump’s file name are the CRC32 checksum for the dump "F36FFEE1". You can use this string to look up the game online. In the case of ["UnknownGame_F36FFEE1.PCE"](https://www.google.com/search?q=F36FFEE1) this is the lesser known version for the USA/Europe cart for Bonk's Revenge. see a demo of this example here: https://youtu.be/Xv3k6jRHRU0
 
 It's also likely if your cart is a homebrew, hack, prototype, beta or unlicensed cart that your cart won't be in the Retro Freaks database. Use the CRC32 checksum to look for the game online.
 
