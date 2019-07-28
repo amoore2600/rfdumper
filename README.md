@@ -9,7 +9,7 @@ Demo of dumping SRAM (save progress from cart): https://youtu.be/uAxWo9JGH2M
 
 *The author is not liable for any damage caused by using this software / SD image etc. I do not take responsibility. Please use it at your own risk. Hopefully it won’t brick your system.*
 
-Using this this Custom firmware proprley will not make changes to your Retro Freak. This firmware is contained to the SD card. Remove the SD card at any time to return the Retro Freak to its normal state.  
+Using this this custom firmware proprley will not make changes to your Retro Freak. This firmware is contained to the SD card. Remove the SD card at any time to return the Retro Freak to its normal state.  
 
 Your Retro Freak should be on application version 2.7 before you use this custom firmware. You can see what version your device has by checking the system information on your Retro Freak. Upgrade instructions can be found on the Retro Freak web page.
 
