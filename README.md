@@ -42,7 +42,7 @@ https://github.com/amoore2600/rfdumper/blob/master/rfd_logcd.sh
 https://github.com/amoore2600/rfdumper/blob/master/retrofd.cfg
 
 ```
-Directory and File Layout for SD CARD on the Largest Partition
+Directory and File Layout for SD CARD on the Largest Partition, if your using Windows this is the only partions avalible on the SD card.
 
 ├── retrofd
 │   ├── bootscript.sh
