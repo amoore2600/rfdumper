@@ -70,7 +70,7 @@ Step by step info for getting started:
 * Unzip the file
 * Write the image to the SD card, use [etcher](https://www.balena.io/etcher/), [dd](http://osxdaily.com/2018/04/18/write-image-file-sd-card-dd-command-line/) or any other image writing software
 * Add the 2 files linked above to the SD card on the largest partition in the "/retrofd" directory overwriting the 2 existing files
-* Put the SD card in Retro Freak
+* Put the SD card in Retro Freak (This will be the only visible partition for Windows users) 
 * Power on the Retro Freak without a cart in it
 * Set the "Save data location" to "microSD card" in the "System Menu" (this only needs to be done once)
 * Power off the Retro Freak 
