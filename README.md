@@ -81,7 +81,7 @@ Step by step info for getting started:
 * Remove the SD card from the Retro Freak and transfer the SD card to a computer 
 * Decrypted dumps will be found on the largest partition in the "/dumps" directory on the SD card and will be properly named
 * Decrypted SRAM dumps (saves) will be found in the "/sram" directory
-* Do not use this SD Card with custom firmware and configuration to play dumps or carts. Only use it for dumping carts. Transfer your dumps and SRAM files to another SD for every day play.
+* Do not use this SD Card with custom firmware and configuration to play dumps or carts. Only use it for dumping carts. Transfer your dumps and SRAM files to another SD card for every day play.
 * When you done dumping carts, power down the Retro Freak, remove this SD Card from your Reto Freak and restart your system. The Retro Freak will returns to its normal state. 
 
 The dumping process can cause a lot of wear and tear on the SD Card. This firmware and configuration will dump a cart even if the cart has been previously dumped to the SD Card. 
