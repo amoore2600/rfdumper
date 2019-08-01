@@ -129,7 +129,7 @@ Another reason sometimes carts are not recognized is that the pins are dirty. Tr
 
 The last reason for a dump being unknown is that cart is damaged or corrupt. It’s unfortunate but sometimes these games just go bad and there’s not much you can do to repair it short of changing out the eproms or failing components. 
 
-**Transfering SRAM game saves back to a real cart**
+**Transfering SRAM game save files back to a real cart**
 
 rfdumper already dumps dcrypted SRAM files to the "/sram" directory on the SD card. This SRAM save file can be used in emulators, flash carts, FPGAs, ect. but you can also take SRAM files from these devices and use the Retro Freak to re-write these files to a real cart. The SRAM file needs to be converted to a file that the Retro Freak can use. You can use the utillites here to covert the SRAM save files:
 
