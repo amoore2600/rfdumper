@@ -135,7 +135,7 @@ rfdumper already dumps decrypted SRAM files to the "/sram" directory on the SD c
 
 https://github.com/amoore2600/rfdumper/tree/master/SRAM-Utilites
 
-You should also use a different SD card than the one use for rfdumper to transfer the SRAM save file back to the cart.
+You should also use a different SD card than the one you use for the rfdumper firmware to transfer the SRAM save file back to the cart!!!
 
 You can see a demo of how to convert SRAM save files here for Linux but the process is similar for Windows too.
 
