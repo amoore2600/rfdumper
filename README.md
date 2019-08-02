@@ -131,7 +131,9 @@ The last reason for a dump being unknown is that cart is damaged or corrupt. Itâ
 
 **Transfering SRAM game save files back to a real cart**
 
-rfdumper already dumps dcrypted SRAM files to the "/sram" directory on the SD card. This SRAM save file can be used in emulators, flash carts, FPGAs, ect. but you can also take SRAM files from these devices and use the Retro Freak to re-write these files to a real cart. The SRAM file needs to be converted to a file that the Retro Freak can use. You can use the utillites here to covert the SRAM save files:
+rfdumper already dumps dcrypted SRAM files to the "/sram" directory on the SD card. These SRAM save files can be used in emulators, flash carts, FPGAs, ect to transfer your progress. However, you can also take SRAM files from these devices and use the Retro Freak to re-write these files to a real cart. The SRAM file needs to be converted to a file that the Retro Freak can use. You can use the utillites here to covert the SRAM save files these tools work for both the Retro Freak and Retron 5:
 
 https://github.com/amoore2600/rfdumper/tree/master/SRAM-Utilites
+
+You can see a demo of how to convert SRAM save files here for Linux but the process is simular for Windows too.
 
