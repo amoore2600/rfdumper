@@ -111,14 +111,10 @@ In the largest partition on the SD Card:
 
    The "/retrofd" directory is where all of the bits needed to run the firmware, be careful dragons live here, it's best to leave this alone unless you know what your doing.
 
-   The “/RetroFreak/Games” directory on the SD card is created after you dump your first cart. The “/RetroFreak/Games” directory should always be empty. Never put files in “/RetroFreak/Games”. This custom firmware uses this directory to get the name of the game from the encrypted dump when the encrypted dumping process puts it there. After the filename is retrieved files in this directory (including the encrypted dump) are removed. If any files are in “/RetroFreak/Games” directory, then future decrypted dumps may be named wrong. If you see files in the “/RetroFreak/Games/” directory, you should delete them when using this custom firmware.
+   The “/RetroFreak/Games” and “/RetroFreak/Saves/SRAM/<SYSTEM>” the directories on the SD card are created after you dump your first cart and dump your first SRAM save file. The “/RetroFreak/Games” and “/RetroFreak/Saves/SRAM/<SYSTEM>” directories should always be empty. Never put files in “/RetroFreak/Games” or “/RetroFreak/Saves/SRAM/<SYSTEM>”. This SD Card with custom firmware uses these directories to get the name of the game from the encrypted dump and or SRAM save file when the encrypted dumping process puts it there. After the filename is retrieved files in these directories any files in them are removed. If any files are in “/RetroFreak/Games” or “/RetroFreak/Saves/SRAM/<SYSTEM>” directory, then future decrypted dumps and SRAM save files may be named wrong. If you see files in the “/RetroFreak/Games/” or “/RetroFreak/Saves/SRAM/<SYSTEM>” directories, you should delete them when using this custom firmware.
 
-   You should never have a file named dump.* on the SD card in “/dumps”. This is a temporary file that's used when copying the decrypted dump. If you see files named dump.* in the “/dumps” directory you should delete them when using this custom firmware as this might cause an issue with name the decrypted dump.
+The directories "/dumps" and "/sram" are created after dumping your first cart. You should never have a file named dump.* on the SD card in “/dumps”. This is a temporary file that's used when copying the decrypted dump. If you see files named dump.* in the “/dumps” directory you should delete them when using this custom firmware as this might cause an issue with name the decrypted dump.
    
-In the medium size partition on the SD Card (this partition will not be seen on Windows):
-
-The partition also includes the bits needed to run the firmware, be careful dragons live here too, it's best to leave this alone unless you know what your doing.
-
 **My dump is named "UnknownGame_??????????"**
 
 If the cart that you dumped has a name similar to "UnknownGame_F36FFEE1.PCE" don't panic. This means that the Retro Freak does not have this game in its database. The letters and numbers in the dump’s file name are the CRC32 checksum for the dump "F36FFEE1". You can use this string to look up the game online. In the case of ["UnknownGame_F36FFEE1.PCE"](https://www.google.com/search?q=F36FFEE1) this is the lesser known version for the USA/Europe cart for Bonk's Revenge. see a demo of this example here: https://youtu.be/Xv3k6jRHRU0You 
