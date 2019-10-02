@@ -95,8 +95,9 @@ RF_LOGCD=yes
 
 ```
 
-```
 Here is an example ofthe directory and file layout for SD CARD on the Largest Partition, if your using Windows this is the only partions avalible on the SD card.
+
+```
 
 ├── retrofd
 │   ├── bootscript.sh
