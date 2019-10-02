@@ -39,7 +39,7 @@ Download one of the img zip files from here:
    
 If your SD card is 8GB in size, then use the 8GB image. If your SD card is 16GB in size, then use the 16GB image. If your SD card is 32GB in size, then use the 32GB image. SD cards larger than 32GB are not supported. Then unzip and write the .img file to an SD card with dd or etcher or any other image writing software.  Copy the text if the these 2 files below and place them in the largest partition on the SD card in the "/retrofd" directory overwriting the 2 files that already exist (retrofd.cfg and rfd_logcd.sh).
    
-Name this file rfd_logcd.sh place this file in the largest partition on the SD card in the "/retrofd" directory overwriting the file that already exist. 
+Copy the code below and name this file rfd_logcd.sh. Place this file in the largest partition on the SD card in the "/retrofd" directory overwriting the file that already exist. 
 
 ```busybox
 #!/sbin/busybox sh
@@ -83,7 +83,7 @@ done
 ```
 
 
-Name this file retrofd.cfg place this file in the largest partition on the SD card in the "/retrofd" directory overwriting the file that already exist. 
+Copy the code below and name this file retrofd.cfg place this file in the largest partition on the SD card in the "/retrofd" directory overwriting the file that already exist. 
 
 ```
 # clear micro SD partition 2/3
@@ -96,7 +96,7 @@ RF_LOGCD=yes
 ```
 
 ```
-Directory and File Layout for SD CARD on the Largest Partition, if your using Windows this is the only partions avalible on the SD card.
+Here is an example ofthe directory and file layout for SD CARD on the Largest Partition, if your using Windows this is the only partions avalible on the SD card.
 
 ├── retrofd
 │   ├── bootscript.sh
