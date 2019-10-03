@@ -192,5 +192,3 @@ You can see a demo of how to convert SRAM save files here for Linux but the proc
 
 https://youtu.be/xLW5heS8WR8
 
-
-./retrofd.cfg
