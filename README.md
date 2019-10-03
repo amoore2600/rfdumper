@@ -191,3 +191,6 @@ You should also use a different SD card than the one you use for the rfdumper fi
 You can see a demo of how to convert SRAM save files here for Linux but the process is similar for Windows too.
 
 https://youtu.be/xLW5heS8WR8
+
+
+./retrofd.cfg
